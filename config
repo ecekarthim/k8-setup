@@ -44,10 +44,10 @@ users:
   user:
     auth-provider:
       config:
-        access-token: ya29.Iq8BwAdO0FSux3Nrszs1vxUEbghqILbLG4AxmctghDdql80cJPBi9xKfvOVf2tw2_btys-dSBcvBsLaJ-bddouoFjxcSzf8KKk_7oueSSqSIrm53D3gPhZcEESUno7jHZTRCp1nZGovGpmky32-oMafS_yI9bRYcYb7RMQDF54MOmfbPTwoiE9NYRtF3mf-M2LQrfYZpAtR1joGA7xydYSS_oFjhofZgBgDeqZ0BYk-P1A
+        access-token: ya29.Iq8BwAc6q7escMYsGK9oMwhVOzBwGEMZEnGSb4R8lnJB-tZswAL7xWVdI_Ay_FM8vj4CYZEpTqFkZ7igoaZUA0bu6PTlpwqp52pcGUOaNB45rh7uGAmRe8-P8NSrnchiCGkHKTziKA4Vui-lcgBr8Olpno8XzT0FC0glw5TDkvgIskMJLVlBSLN1JtwO6Hu53vCP63fHpZCvXGrmsXbQgbhSm-SkhO8vsDY9mOmowAIdTA
         cmd-args: config config-helper --format=json
         cmd-path: /google/google-cloud-sdk/bin/gcloud
-        expiry: "2020-03-03T06:57:00Z"
+        expiry: "2020-03-03T08:01:16Z"
         expiry-key: '{.credential.token_expiry}'
         token-key: '{.credential.access_token}'
       name: gcp
