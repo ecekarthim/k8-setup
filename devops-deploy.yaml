@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-web-devops
+spec:
+  selector:
+    matchLabels:
+      app: hello-web-devops
+  template:
+    metadata:
+      labels:
+        app: hello-web-devops
+    spec:
+      containers:
+      - name : hello-web-devops
+        image: asia.gcr.io/curious-striker-260614/kart-tomcat
+        imagePullPolicy: Always
+        name: kart-tomcat
+        ports :
+        - containerPort: 8082
